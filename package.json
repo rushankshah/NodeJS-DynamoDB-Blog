@@ -1,0 +1,22 @@
+{
+  "name": "dynamodbnodejstutorial",
+  "version": "1.0.0",
+  "description": "A tutorial companion to a Medium Blog for understanding the connection of DynamoDB and NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "keywords": [
+    "DynamoDB",
+    "NodeJS"
+  ],
+  "author": "Rushank Shah",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "dynamoose": "^2.8.5"
+  }
+}
